@@ -6,5 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>task 2</title>
   </head>
-  <body></body>
+  <body>
+    <table>
+      <tbody>
+      <tr>
+        <td>Тип булочки :</td>
+        <td>
+        <select name="type">
+          <option value="1">Булочки для гамбургера</option>
+          <option value="2">Булочки для хот-догов</option>
+          <option value="3">Багет</option>
+          <option value="4">Ватрушка</option>
+          <option value="5">Косичка</option>
+          <option value="6">Special</option>
+          </select>
+        </td>
+        </tr>
+        <td>Тип мясо:</td>
+        <td>
+          <select name="type_meat">
+          <option value="1">Говядина</option>
+          <option value="2">Баранина</option>
+          <option value="3">Конина</option>
+          <option value="4">Свинина</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Опции:</td>
+        <td>
+          <input type="checkbox">
+          "Помидор"
+          <br>
+          <input type="checkbox">
+          "Соленные огурцы"
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td>Адрес:</td>
+        <td>
+          <input type="text" placeholder="Введите адрес">
+        </td>
+      </tr>
+      <tr>
+        <td>Ф.И.О. Заказчика:</td>
+        <td>
+          <input type="text" placeholder="Введите Ф.И.О.">
+        </td>
+      </tr>
+      <td>Желаемое время доставки:</td>
+      <td>
+        <input type="datetime-local">
+      </td>
+      </tr>
+      <tr>
+        <td>Выбор бургера:</td>
+        <td>
+          <select name="chose_burger">
+          <option>Гамбургер</option>
+          <option>Хот-дог</option>
+          <option>Чизбургер</option>
+          </select>
+        </td>
+      </tr>
+      <td>
+        <button>Заказать</button>
+      </td>
+      </tbody>
+    </table>
+  </body>
 </html>
